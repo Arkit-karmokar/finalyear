@@ -5,7 +5,6 @@ import Link from "next/link";
 import Style from "./Discover.module.css";
 
 const Discover = () => {
-  //--------DISCOVER NAVIGATION MENU
   const discover = [
     {
       name: "Collection",
@@ -34,10 +33,6 @@ const Discover = () => {
     {
       name: "Connect Wallet",
       link: "connectWallet",
-    },
-    {
-      name: "Blog",
-      link: "blog",
     },
   ];
   return (
